@@ -1,0 +1,24 @@
+Start
+	array[] = {13, 3, 17, 32, 2, 40, 45, 15}
+	size  = 8
+	
+	prompt user for the targuet to search
+	get searchItem
+	
+	index = linearSearch (array, size, searcgItem)
+
+	if(index != -1) THEN
+		Display "Element found at index" + index
+	else 
+		Display "Element not found"
+	Endif
+End
+
+linearSearch(array[], size, searchItem){
+	for(i=0; i<size;i++)
+		if (array[i] == searchItem) THEN
+			return i 
+		Endif 
+		return -1
+	Endfor
+}

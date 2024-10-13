@@ -1,0 +1,5 @@
+ /*JOptionPane.showMessageDialog(null, "Login Successful");
+
+                sell sellPage = new sell(); // Create an instance of the sell page
+                sellPage.setVisible(true);  // Make the sell page visible
+                this.dispose();  // Close the current login window*/
